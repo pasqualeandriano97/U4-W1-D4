@@ -3,9 +3,9 @@ import dipendente.*;
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
-        Dipendente d1 = new DipendenteFullTime(1234, 100, dipartimento.PRODUZIONE);
-        Dipendente d2 = new DipendentePartTime(4321, 100, dipartimento.AMMINISTRAZIONE);
-        Dipendente d3 = new Dirigente(5678, 100, dipartimento.VENDITE);
+        Dipendente d1 = new DipendenteFullTime(1234, 12000, dipartimento.PRODUZIONE);
+        Dipendente d2 = new DipendentePartTime(4321, 11900, dipartimento.AMMINISTRAZIONE);
+        Dipendente d3 = new Dirigente(5678, 12100, dipartimento.VENDITE);
         Volontario v1 = new Volontario("Mario Rossi", 30, "cv.png");
         Volontario v2 = new Volontario("Mario Bianchi", 30, "cv.png");
         Volontario v3 = new Volontario("Mario Verdi", 30, "cv.png");
